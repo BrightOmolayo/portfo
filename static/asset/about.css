@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+.kebabIcon{
+    display: none;
+}
+::selection{
+    background-color: #24272a;
+    color: #eee;
+    padding: 8px;
+}
+.poetsen-one-thin {
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+}
+main h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+main p{
+    color: olive;
+    font-size: 19px;
+    line-height: 30px;
+}
+main{
+    padding: 2% 17%;
+}
+body{
+    background-color: #fdfafa;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* header */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    background-color: #fdfafa;
+    padding: 7px 0px;
+}
+.divider{
+    height: 90px;
+    background-color: #fdfafa;
+}
+nav ul{
+    display: flex;
+    gap: 10%;
+    width: 89%;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+nav li{
+    list-style: none;
+}
+.linksAndSwitchIcon{
+    width: 45%;
+}
+.dropdown{
+    display: flex;
+    padding-left: 10%;
+}
+nav a{
+text-decoration: none;
+color: #161616;
+font-family: "Poetsen One", sans-serif;
+}
+nav{
+   box-shadow: 0px 0px 0px 0.5px rgb(151, 150, 150);
+}
+.moonIcon{
+    width: 35px;
+    height:35px ;
+    margin-right: 13%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.moon{
+    display: block;
+}
+/* logo */
+.logo{
+margin-left: 8%;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style:italic;
+    padding: 1%;
+    color:olive;
+}
+.logo:hover{
+    color: #161616;
+}
+/*main*/
+/* footer */
+footer{
+    background-color: whitesmoke;
+    padding: 30px 0px;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style: none;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    position: relative;
+    left: 40%;
+    justify-content: space-around;
+    margin: 20px 0px;
+
+}
+.socials{
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    justify-content: center;
+    background-color: #fdfafa;
+}
+.socials a{
+    color: #161616;
+}
+section{
+    text-align: center;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .poetsen-one-thin {
+        font-family: "Poetsen One", sans-serif;
+        font-style: normal;
+      }
+      
+    /* when the switch is clicked on the background color should change to this 
+    body{
+        background-color: #161616;
+        color:white
+    } */
+    .kebabIcon{
+        display: block;
+        margin-right: 11%;
+        font-size: 21px;
+        margin-top: 2%;
+        position: absolute;
+        left: 80%;
+        z-index: 99;
+        /* width: 35px;
+        height:35px ;
+        margin-right: 13%;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 4px; */
+    }
+    body{
+        background-color: #fdfafa;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+    /* header */
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 99;
+        background-color: #fdfafa;
+        padding: 18px 0px 25px 0px;
+    }
+    .divider{
+        height: 50px;
+        background-color: #fdfafa;
+    }
+    nav ul{
+        display: block;
+        gap: 10%;
+        width: 100%;
+        padding-top: 2%;
+    }
+    nav li{
+        list-style: none;
+        margin: 27px 0px;
+    }
+    .linksAndSwitchIcon{
+        display: block;
+        width: 100%;
+        position: relative;
+        right: 30%;
+    }
+    .dropdown{
+        display: none;
+        width: 100%;
+        position: relative;
+        right: 0%;
+        z-index: 9;
+        justify-content: space-between;
+        background-color: #fdfafa;
+        margin-left: 10%;
+        padding-left: 3%;
+    }
+    nav a{
+    text-decoration: none;
+    color: #161616;
+    font-family: "Poetsen One", sans-serif;
+    }
+    nav{
+       box-shadow: 0px 0px 0px 0.5px rgb(151, 150, 150);
+    }
+    .moonIcon{
+        width: 35px;
+        height:35px ;
+        margin-right: 13%;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 4px;
+    }
+    .moon{
+        display: block;
+    }
+    /* logo */
+    .logo{
+        margin-left: 10%;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style:normal;
+        padding: 1%;
+        color:olive;
+        font-size: 21px;
+    }
+    .logo:hover{
+        color: #161616;
+    }
+    /*main*/
+    .missBright{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 31%;
+        border-radius: 50%;
+        border: 1px solid rgb(163, 162, 162);
+        z-index: 9;
+        overflow: hidden;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+    h5{
+        font-size: 23px;
+        margin: 10px;
+        color: #161616;
+        display: none;
+    }
+    .name{
+        font-size: 48px;
+        margin: 26px  0px 23px 0px;
+        color: olive;
+        line-height: 50px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight:lighter;
+        font-style:normal;
+    }
+    button{
+        width:60%;
+        padding: 20px 2px 20px 2px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: larger;
+        color: olive;
+        margin: 30px 0px 50px 0px;
+        border: 1px solid olive;
+    }
+    button:hover{
+        background-color: olive;
+        border: transparent;
+        color: oldlace;
+    }
+    p{
+        font-size: 18px;
+        padding: 2%;
+    }
+    /* footer */
+    footer{
+        background-color: whitesmoke;
+        padding: 30px 0px;
+    }
+    footer ul{
+        display: flex;
+    }
+    footer li{
+        list-style: none;
+    }
+    .socialIcon{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        position: relative;
+        left: 30%;
+        justify-content: space-around;
+        margin: 20px 0px;
+    
+    }
+    .socials{
+        padding: 8px;
+        border-radius: 50%;
+        font-size: 20px;
+        justify-content: center;
+        background-color: #fdfafa;
+    }
+    .socials a{
+        color: #161616;
+    }
+    section{
+        text-align: center;
+        padding: 3%;
+    }
+}
